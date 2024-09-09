@@ -1,0 +1,27 @@
+.container{
+    margin: 1em auto;
+    width: 70%;
+}
+
+.container__titulo{
+    text-align: center;
+}
+
+.container__projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 32px;
+
+    margin: 1em auto;
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 90%;
+    }
+
+    .container__projetos{
+        grid-template-columns: 1fr;
+    }
+}

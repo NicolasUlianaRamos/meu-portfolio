@@ -1,0 +1,7 @@
+.container{
+    background: linear-gradient(#3d3d3d, #000000);
+    color: var(--cor-branco);
+    padding: 2em 0 4em 0;
+    text-align: center;
+    width: 100%;
+}

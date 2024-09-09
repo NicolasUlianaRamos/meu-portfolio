@@ -1,0 +1,92 @@
+.container{
+    background: linear-gradient(to left, #414344, #1f2526);
+
+
+    padding: 3em 5em;
+    text-align: center;
+}
+
+.container__titulo{
+    color: var(--cor-branco);
+    margin-bottom: 1.5em;
+}
+
+.container__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.card{
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+.card__iconeDiv{
+    height: 100px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.card__icone{
+    color: var(--cor-branco);
+    height: 100%;
+    width: 100%;
+}
+
+.card__icone_html{
+    color: #e24b21;
+}
+.card__icone_css{
+    color: #176799;
+}
+.card__icone_bootstrap{
+    color: #7710f1;
+}
+.card__icone_javascript{
+    color: #d3b838;
+}
+.card__icone_react{
+    color: #00ffff;
+}
+.card__icone_node{
+    color: #90ca52;
+}
+.card__icone_express, .card__icone_java{
+    color: #FFF;
+}
+.card__icone_mysql{
+    color: #dddddd;
+}
+.card__icone_mongodb{
+    color: #00aa1c;
+}
+.card__icone_sequelize{
+    color: #00aeff;
+}
+.card__icone_git{
+    color: #e44100;
+}
+
+
+
+.card__titulo{
+    color: var(--cor-branco);
+}
+
+.card__texto{
+    color: var(--cor-cinzinha);
+}
+
+
+@media(max-width: 768px){
+    .container{
+        padding: 3em 1em;
+    }
+
+    .container__cards{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+}

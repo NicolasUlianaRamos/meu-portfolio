@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.card__contatos{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.card__icone{
+    align-items: center;
+    display: flex;
+}
+
+.card__icone svg{
+    height: 35px;
+    width: 35px;
+}
