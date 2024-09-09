@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import styles from './Header.module.css';
 import MenuHamburguer from '../../Imagens/Menu.svg';
-import Logo from '../../Imagens/Logo.jpg';
+import Logo from '../../assets/Imagens/Logo.jpg';
 
 export function Header(){
     return(
