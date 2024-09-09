@@ -1,4 +1,4 @@
-import FotoPerfil from '../../Imagens/para gov.jpeg';
+import FotoPerfil from '../../assets/Imagens/para gov.jpeg';
 import styles from './PerfilBanner.module.css';
 
 export function PerfilBanner(){
