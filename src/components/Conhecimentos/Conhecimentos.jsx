@@ -8,6 +8,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
@@ -43,6 +44,10 @@ export function Conhecimentos(){
         {
             icone: <SiExpress className={`${styles.card__icone} ${styles.card__icone_express}`} />,
             nomeLinguagem: "Express"
+        },
+        {
+            icone: <SiTypescript className={`${styles.card__icone} ${styles.card__icone_typescript}`} />,
+            nomeLinguagem: "TypeScript"
         },
         {
             icone: <SiMysql className={`${styles.card__icone} ${styles.card__icone_mysql}`} />,

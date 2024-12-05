@@ -56,6 +56,9 @@
 .card__icone_express, .card__icone_java{
     color: #FFF;
 }
+.card__icone_typescript{
+    color: #377cc8;
+}
 .card__icone_mysql{
     color: #dddddd;
 }
