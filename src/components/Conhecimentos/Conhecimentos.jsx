@@ -9,8 +9,11 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
+import { SiPhp } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { SiSequelize } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
@@ -50,12 +53,24 @@ export function Conhecimentos(){
             nomeLinguagem: "TypeScript"
         },
         {
+            icone: <TbBrandCSharp className={`${styles.card__icone} ${styles.card__icone_cs}`} />,
+            nomeLinguagem: "C#"
+        },
+        {
+            icone: <SiPhp className={`${styles.card__icone} ${styles.card__icone_php}`} />,
+            nomeLinguagem: "PHP"
+        },
+        {
             icone: <SiMysql className={`${styles.card__icone} ${styles.card__icone_mysql}`} />,
             nomeLinguagem: "MySQL"
         },
         {
             icone: <SiMongodb className={`${styles.card__icone} ${styles.card__icone_mongodb}`} />,
             nomeLinguagem: "MongoDB"
+        },
+        {
+            icone: <BiLogoPostgresql className={`${styles.card__icone} ${styles.card__icone_postgre}`} />,
+            nomeLinguagem: "PostgreSQL"
         },
         {
             icone: <SiSequelize className={`${styles.card__icone} ${styles.card__icone_sequelize}`} />,

@@ -59,11 +59,20 @@
 .card__icone_typescript{
     color: #377cc8;
 }
+.card__icone_cs{
+    color: #ffffff;
+}
+.card__icone_php{
+    color: #7b7fb5;
+}
 .card__icone_mysql{
     color: #dddddd;
 }
 .card__icone_mongodb{
     color: #00aa1c;
+}
+.card__icone_postgre{
+    color: #396c94;
 }
 .card__icone_sequelize{
     color: #00aeff;
