@@ -7,6 +7,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
@@ -43,6 +44,10 @@ export function Conhecimentos(){
         {
             icone: <FaNodeJs className={`${styles.card__icone} ${styles.card__icone_node}`} />,
             nomeLinguagem: "Node JS"
+        },
+        {
+            icone: <SiNextdotjs className={`${styles.card__icone} ${styles.card__icone_next}`} />,
+            nomeLinguagem: "Next JS"
         },
         {
             icone: <SiExpress className={`${styles.card__icone} ${styles.card__icone_express}`} />,
