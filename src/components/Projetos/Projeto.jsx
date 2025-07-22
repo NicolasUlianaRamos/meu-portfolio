@@ -5,6 +5,11 @@ import styles from './Projeto.module.css';
 export function Projeto(){
     const [projetos, setProjetos] = useState([
         {
+            img: "facilitaServico",
+            nome: "Facilita Serviços",
+            link: "https://facilita-servico.vercel.app"
+        },
+        {
             img: "medicalservice",
             nome: "Medical Service",
             link: "https://medical-service-red.vercel.app"

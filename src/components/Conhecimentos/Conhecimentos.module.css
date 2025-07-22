@@ -53,6 +53,9 @@
 .card__icone_node{
     color: #90ca52;
 }
+.card__icone_next{
+    color: #000000;
+}
 .card__icone_express, .card__icone_java{
     color: #FFF;
 }
